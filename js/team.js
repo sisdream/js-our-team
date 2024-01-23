@@ -81,7 +81,15 @@ function member(img, name, role, image) {
   photo.classList.add('img-fluid');
   photo.src = `img/${img}`;
 
+  const textName = document.createElement('h3');
+  card.appendChild(textName);
+  textName.classList.add('d-inline');
+  textName.innerHTML = `${name}`;
 
+  const textRole = document.createElement('p');
+  card.appendChild(textRole);
+  textRole.classList.add('d-inline');
+  textRole.innerHTML = `${role}`;
 };
 
 
