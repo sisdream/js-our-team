@@ -32,4 +32,11 @@ const team = [
   },
 ];
 
-console.log(team);
+// INFORMAZIONI TEAM
+
+for(let i=0; i < team.length; i++){
+  for(let chiave in team[i]){
+      console.log(chiave + " : " + team[i][chiave]);
+  }
+  console.log("");
+}
