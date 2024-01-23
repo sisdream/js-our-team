@@ -1,3 +1,4 @@
+const card = document.getElementById("card");
 const team = [
   {
     name: 'Wayne Barnett',
@@ -30,3 +31,5 @@ const team = [
     image: 'barbara-ramos-graphic-designer.jpg',
   },
 ];
+
+console.log(team);
