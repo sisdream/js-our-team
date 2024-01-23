@@ -70,4 +70,18 @@ member(team[4].image, team[4].name, team[4].role, team[4].image);
 member(team[5].image, team[5].name, team[5].role, team[5].image);
 
 
+// FUNZIONE
+function member(img, name, role, image) {
+  const card = document.createElement('div');
+  document.getElementById('container').appendChild(card);
+  card.classList.add('card');
+
+  const photo = document.createElement('img');
+  card.appendChild(photo);
+  photo.classList.add('img-fluid');
+  photo.src = `img/${img}`;
+
+
+};
+
 
