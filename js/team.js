@@ -32,34 +32,10 @@ const team = [
 ];
 
 // INFORMAZIONI TEAM
-console.log(team[0].name);
-console.log(team[0].role);
-console.log(team[0].image);
+for(let member of team){
+  console.log(member.name,member.role,member.image);
+}
 
-console.log(' ');
-console.log(team[1].name);
-console.log(team[1].role);
-console.log(team[1].image);
-
-console.log(' ');
-console.log(team[2].name);
-console.log(team[2].role);
-console.log(team[2].image);
-
-console.log(' ');
-console.log(team[3].name);
-console.log(team[3].role);
-console.log(team[3].image);
-
-console.log(' ');
-console.log(team[4].name);
-console.log(team[4].role);
-console.log(team[4].image);
-
-console.log(' ');
-console.log(team[5].name);
-console.log(team[5].role);
-console.log(team[5].image);
 
 
 member(team[0].image, team[0].name, team[0].role, team[0].image);
